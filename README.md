@@ -43,5 +43,6 @@ var m ="00C1E3934D1614465B33053E7F48EE4EC87B14B95EF88947713D25EECBFF7E74C7977D02
   ## base64
    参数一个，值为aes加密结果，js代码见base_info.js
    # 自此完毕
-  
+  # 注意
+  本项目仅用于学习和交流
 

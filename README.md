@@ -35,8 +35,10 @@ i还有个隐蔽的参数rp，为md5算法生成参数为gt+challange+passtime�
 ## rsa非对称加密
 主要关键参数，有模数和指数，两个都为固定值，加密文本为
 var m ="00C1E3934D1614465B33053E7F48EE4EC87B14B95EF88947713D25EECBFF7E74C7977D02DC1D9451F79DD5D1C10C29ACB6A9B4D6FB7D0A0279B6719E1772565F09AF627715919221AEF91899CAE08C0D686D748B20A3603BE2318CA6BC2B59706592A9219D0BF05C9F65023A21D2330807252AE0066D59CEEFA5F2748EA80BAB81";
-	var e = "1001";
-	var text = (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1) + (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1) + (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1) + (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1);
+
+var e = "1001";
+	
+var text = (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1) + (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1) + (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1) + (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1);
   实现方式可参考http://www-cs-students.stanford.edu/~tjw/jsbn/rsa.html源码
   ## aes对称加密
   参数两个，分别为i和（rsa加密的）text，

@@ -39,7 +39,7 @@ var m ="00C1E3934D1614465B33053E7F48EE4EC87B14B95EF88947713D25EECBFF7E74C7977D02
 	var text = (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1) + (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1) + (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1) + (65536 * (1 + Math.random()) | 0)["toString"](16)["substring"](1);
   实现方式可参考http://www-cs-students.stanford.edu/~tjw/jsbn/rsa.html源码
   ## aes对称加密
-  参数两个i和rsa加密的text，
+  参数两个，分别为i和（rsa加密的）text，
   ## base64
    参数一个，值为aes加密结果，js代码见base_info.js
   ## 自此完毕
